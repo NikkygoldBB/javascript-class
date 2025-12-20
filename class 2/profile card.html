@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Profile Cards</title>
+
+    <style>
+       .body
+        {
+            background-color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+           
+        }
+         
+        .header
+        {
+            background-color: green;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .footer
+        {
+            background-color: green;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .main
+        {
+            padding: 20px;
+    }
+
+    .card-container
+    {
+            display: flex;
+            justify-content: center;
+            gap:20px;
+            flex-wrap: wrap;
+
+    
+    }
+
+    .card
+    {background-color: white
+        width: 30px
+            padding: 20px
+            border: 1px solid #ddd
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 
+            text-align: center;
+
+        }
+
+     .card img
+     {width: 30%;
+        border-radius: 10px;
+
+    }
+
+    .card h3
+    {width: 30px;
+        margin: 15px 0 10px;
+    }
+
+    .card p 
+    {font-size: 13px;
+        color: grey;
+
+    .card button 
+    { margin-top: 15px;
+        padding: 10px 20px;
+        background: black;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s
+
+    }
+
+    .card button:hover
+    {background: grey
+
+    }
+
+    .card-container
+    {flex-direction: column;
+        align-items: center;
+
+    }
+        
+    </style>
+    </head>
+    <body>
+
+        <header>
+          <h1> Our Team</h1>  
+            </header>
+
+            <main>
+                <div class="card-container">
+                
+                    <div class="card">
+                        
+                    <img 
+                    src="https://c.pxhere.com/photos/76/4e/business_people_meeting_office_work_corporate_job_male-1079382.jpg!d" alt="Profile" />
+                
+                    <h3>John Doe</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at dictum ligula.</p>
+                <button>View Profile</button>
+                </div>
+
+                <div class="card">
+                     <img 
+                    src="https://c.pxhere.com/photos/76/4e/business_people_meeting_office_work_corporate_job_male-1079382.jpg!d" alt="Profile" />
+                    
+                    <h3>Jane Smith</h3>
+                <p>Passionate about teamwork and innovation. Loves solving complex problems.</p>
+                <button>View Profile</button>
+                </div>
+
+                 <div class="card">
+                     <img 
+                    src="https://c.pxhere.com/photos/76/4e/business_people_meeting_office_work_corporate_job_male-1079382.jpg!d" alt="Profile" />
+                    
+                    <h3> Micheal Lee</h3>
+                <p>Experienced professional dedicated to excellence and continuous learning.</p>
+                <button>View Profile</button>
+                </div>
+
+                <div>
+                    
+                </main>
+
+            <footer>
+                <p>Kolawole Aderonke</p>
+                </footer>
+    
+</body>
+</html>
