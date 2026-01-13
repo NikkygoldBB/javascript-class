@@ -1,0 +1,25 @@
+*{
+
+  font-family: "Nunito", sans-serif;
+ 
+}
+
+.header1{
+    font-weight: 800;
+    color: darkblue;
+
+}
+
+#small {
+    color: orangered;
+}
+
+#paragraph1 {
+    color: red;
+}
+
+#paragraph2 {
+    color:green;
+}
+
+
