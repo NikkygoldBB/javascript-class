@@ -61,7 +61,7 @@ names.push("bisola");
 
  //how to copy part of the array
  
- //console.log(names.slice(0, 3));
+ //console.log(names.slice(0, 93));
 
  //string are array, can we perform the same array operation on them?
  //in most programming languages, sring are immutable
